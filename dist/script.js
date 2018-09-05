@@ -13,7 +13,7 @@ var module = (function () {
 			console.log(info);
 
 			for (let i = 0; i < info.results.length; i++) {
-				
+
 				let template = 
 				`
 				<div class="adressbook__entry">
@@ -28,7 +28,7 @@ var module = (function () {
 				const adressbook = document.querySelector(".adressbook__container");
 				adressbook.insertAdjacentHTML('beforeend', template);
 			}
-			
+
 			console.log(info.results.length + ' contacts added')
 		}
 	}
