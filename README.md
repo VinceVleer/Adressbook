@@ -17,3 +17,8 @@ I set up an HTML file with BEM convention & SASS styling to serve as a base.
 Next I retrieved information from the API by doing an AJAX call with Javascript.
 The retrieved information then goes trough a loop that pastes the full name, phone number & image into a (pre styled) HMTL element that will then be appended to the DOM.
 At last, I applied module pattern to the function in order to achieve asynchronous loading of the contacts.
+
+### Struggles
+
+Getting the API to work correctly was a bit tricky and took some time to research.
+The other work was a piece of cake.
