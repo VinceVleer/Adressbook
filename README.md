@@ -7,7 +7,7 @@ Adressbook made with HTML, SASS & JavaScript as assigned by Competa.
 Clone the project to your local machine by using the command:
 
 ```
-$ git clone https://github.com/VinceVleer/Deliverables.git
+$ git clone https://github.com/VinceVleer/Adressbook
 ```
 
 ### Activity
