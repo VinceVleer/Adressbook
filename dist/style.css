@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+body {
+  margin: 0;
+  background-color: #EEE; }
+
+#adressbook {
+  background-color: white;
+  max-width: 360px;
+  height: 640px;
+  margin: 40px auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.205);
+  border-radius: 1%; }
+
+.adressbook__header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #AAA; }
+.adressbook__container {
+  height: 520px;
+  overflow: auto; }
+.adressbook__entry {
+  width: 90%;
+  height: 70px;
+  margin: 10px auto;
+  display: flex; }
+.adressbook__data {
+  margin-left: 10px; }
+  .adressbook__data--small {
+    width: 70px;
+    height: 70px;
+    background-color: #BBB;
+    border-radius: 5%; }
+.adressbook__name {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 14px; }
+.adressbook__phone {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #AAA; }
+.adressbook__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: #AAA; }
+.adressbook__button {
+  width: 16px;
+  height: 16px;
+  background-color: #EEE;
+  border-radius: 50%; }
+  .adressbook__button:hover {
+    transition: background-color 0.3s;
+    background-color: #BBB;
+    transition-timing-function: ease-in-out; }
+
+/*# sourceMappingURL=style.css.map */
